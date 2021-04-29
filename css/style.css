@@ -3,6 +3,10 @@ body {
     font-size: 16px;
 }
 
+.nav {
+    padding: 20px;
+}
+
 .main-components {
     display: flex;
     flex-direction: column;
@@ -72,4 +76,27 @@ button {
 
 p {
     padding-top: 20px;
+}
+
+.footer {
+    justify-content: space-between;
+    padding: 15px;
+    align-self: flex-end;
+    display: inline-flex;
+    width: 100%;
+    background-color:#d6d6d4;
+}
+
+.left-foot {
+    padding-left: 25px;
+
+}
+
+.right-foot {
+    padding-right: 75px;
+
+}
+
+.mid-foot {
+
 }
