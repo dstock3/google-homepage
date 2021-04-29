@@ -1,12 +1,14 @@
+/* GENERAL */
+
 body {
     font-family: arial, sans-serif;
     font-size: 14px;
     color: #222;
 }
 
-.nav {
-    padding: 20px;
-}
+
+/* MAIN COMPONENTS */
+
 
 .main-components {
     display: flex;
@@ -51,6 +53,27 @@ input {
     padding-left: 15px;
 }
 
+button {
+    padding: 15px;
+    border: gray;
+}
+
+.earth {
+    text-decoration: none;
+}
+
+p {
+    padding-top: 20px;
+}
+
+/* TOP NAV BAR */
+
+.nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 li {
     display: inline;
     padding: 5px;
@@ -67,18 +90,7 @@ ul {
     text-decoration: none;
 }
 
-button {
-    padding: 15px;
-    border: gray;
-}
-
-.earth {
-    text-decoration: none;
-}
-
-p {
-    padding-top: 20px;
-}
+/* FOOTER */
 
 .footer {
     position: absolute;
