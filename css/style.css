@@ -13,12 +13,11 @@ body {
 
 .logo {
     width: 250px;
-    padding-bottom: 5px;;
+    padding-bottom: 50px;
 }
 
 input {
-    width: 150%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .input-icons img {
@@ -27,12 +26,18 @@ input {
 
 .input-icons {
     margin: auto;
+    width: 20%;
 }
 
 .input-field {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
+}
+
+.icon {
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 li {
