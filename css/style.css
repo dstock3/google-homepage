@@ -11,7 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 13%;
+    padding-top: 10%;
+
 }
 
 .logo {
@@ -79,9 +80,12 @@ p {
 }
 
 .footer {
+    position: absolute;
+    align-items: center;
+    bottom: 0;
     justify-content: space-between;
-    padding: 15px;
-    align-self: flex-end;
+    height: 40px;
+
     display: inline-flex;
     width: 100%;
     background-color:#d6d6d4;
@@ -89,7 +93,6 @@ p {
 
 .left-foot {
     padding-left: 25px;
-
 }
 
 .right-foot {
@@ -97,6 +100,12 @@ p {
 
 }
 
-.mid-foot {
+footer a {
+    text-decoration: none;
+    color: black;
+}
 
+.green {
+    width: 13px;
+    padding-right: 5px;
 }
