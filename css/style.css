@@ -47,7 +47,8 @@ ul {
 }
 
 input {
-    border-radius: 20px;
+    border-radius: 24px;
+
 }
 
 .input-icons img {
@@ -60,6 +61,8 @@ input {
     width: 30%;
     padding-bottom: 30px;
     padding-right: 35px;
+    opacity: .4;
+
 }
 
 .input-field {
@@ -68,7 +71,7 @@ input {
     padding-left: 45px;
     text-align: left;
     height: 25px;
-    opacity: 0.2;
+
 }
 
 .icon {
