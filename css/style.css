@@ -9,14 +9,14 @@ body {
 /* TOP NAV BAR */
 
 .nav {
-    padding: 20px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 20px;
 }
 
 li {
     display: inline;
-    padding: 5px;
 }
 
 ul {
@@ -28,6 +28,28 @@ ul {
 .nav-links {
     color: black;
     text-decoration: none;
+    padding-inline-start: 20px;
+
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.user {
+    border-radius: 100%;
+    width: 35px;
+}
+
+.apps {
+    color:#5f6368;
 }
 
 /* MAIN COMPONENTS */
@@ -116,7 +138,7 @@ p {
     justify-content: space-between;
     height: 40px;
 
-    display: flex;
+    display: flex;t
     flex-wrap: wrap;
     width: 100%;
     background-color:#d6d6d4;
@@ -128,12 +150,19 @@ p {
 
 .right-foot {
     padding-right: 75px;
+    display: inline-block;
 
+}
+
+.mid-foot {
+    padding-inline-end: 75px;
+    display: inline-block;
 }
 
 footer a {
     text-decoration: none;
     color: #70757a;
+    display: inline-block;
 }
 
 .green {
