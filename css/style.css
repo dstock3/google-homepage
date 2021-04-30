@@ -138,10 +138,15 @@ p {
     justify-content: space-between;
     height: 40px;
 
-    display: flex;t
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color:#d6d6d4;
+    background-color: #ededed;
+    color: #70757a;
+}
+
+.footer li {
+    padding-inline-start: 15px;
 }
 
 .left-foot {
